@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Carnet_de_santé.Animal_Page">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="Bienvenue sur la page de ton annimal" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+
+            <Label Text="Nom d'animal" FontSize="20"/>
+            <Entry Text="Name"  x:Name="nomAnimal"/>
+            
+            <Button Text="photo" Clicked="TakePhoto"/>
+            <Image x:Name="image" Source="chien.png"
+                   WidthRequest="{OnPlatform iOS=200 , Android=200 , UWP=200}"/>
+
+            <Label Text="Date de naissance" FontSize="12"/>
+            <DatePicker  x:Name="naissanceAnimal"/>
+
+            <Label Text="Espece" FontSize="12"/>
+            <Entry Text="" x:Name="especeAnimal"/>
+
+            <Label Text="Race" FontSize="12"/>
+            <Entry Text="" FontSize="10" x:Name="raceAnimal" />
+
+            <Label Text="Sexe" FontSize="12" />
+            <Entry Text="" FontSize="10" x:Name="sexeAnimal"/>
+
+            <Label Text="numeroID" FontSize="12" />
+            <Entry Text="" FontSize="10" x:Name="IDAnimal"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

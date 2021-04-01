@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="Carnet_de_santé.UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Carnet_de_santé.UWP">
+
+</Application>
+

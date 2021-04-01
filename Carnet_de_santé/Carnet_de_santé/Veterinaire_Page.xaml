@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Carnet_de_santé.Veterinaire_Page">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="Bienvenue sur la page du veterinaire de ton animal" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <Label Text="Nom du veterinaire" FontSize="20" />
+            <Entry Text="" x:Name="nomVeto"/>
+
+            <Label Text="Adresse" FontSize="12"/>
+            <Entry Text="" x:Name="AdresseVeto"/>
+
+            <Label Text="téléphone" FontSize="12" />
+            <Entry Text="" x:Name="TelephoneVeto"/>
+
+            <Label Text="mail" FontSize="12" />
+            <Entry Text="" FontSize="10" x:Name="MailVeto"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Carnet_de_santé.Vaccin_Page">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="Bienvenue sur la page des vaccins" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <Label Text="Liste des vaccins" FontSize="20" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+
+                <ListView ItemsSource="{Binding List}" Grid.Row="0"  Margin="10">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid Padding="4" Margin="6">
+                                    <Label Text="{Binding Nom}" FontSize="Large"/>
+                                    <Label Grid.Column="1" Text="{Binding Date}" FontSize="Small"/>
+                                    <Label Grid.Column="2" Text="{Binding Comentaire}" FontSize="Small"/>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
+            <Button Text="Ajouter" Clicked="OnAjouterClicked" />
+
+
+
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

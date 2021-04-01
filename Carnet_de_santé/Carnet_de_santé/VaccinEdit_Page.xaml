@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Carnet_de_santé.VaccinEdit_Page">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="Nom du Vaccin" FontSize="20"/>
+            <Entry x:Name="nomVaccin" Text="{Binding Nom}" />
+
+            <Label Text="Date" FontSize="12"/>
+            <DatePicker FontSize="10" x:Name="DateVaccin" Date="{Binding Date}"/>
+
+            <Label Text="Commentaire" FontSize="12" />
+            <Entry FontSize="10" x:Name="CommentVaccin" Text="{Binding Comentaire}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Carnet_de_santé.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Votre Carnet de santé" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+       
+            
+            <Label Text="Votre Annimal" HorizontalTextAlignment="Center" TextColor="black" FontSize="16"/>
+            <Button Text="Animal" Clicked="OnAnimalClicked" />
+            <Label Text="Votre Veterinaire" HorizontalTextAlignment="Center" TextColor="black" FontSize="16"/>
+            <Button Text="Veterinaire" Clicked="OnVeterinaireClicked" />
+            <Label Text="Les vaccins de l'annimal" HorizontalTextAlignment="Center" TextColor="black" FontSize="16"/>
+            <Button Text="Vaccin" Clicked="OnVaccinClicked" />
+    </StackLayout>
+
+</ContentPage>

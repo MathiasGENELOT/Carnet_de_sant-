@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "kQXnl/ZtuHd97Z/kpc3tc8kn35z+mf6hXT+IHEPcnAmpwlHMHwZKpjV1JgRvrvLpbckvGeR9847SooO1uquUBA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mathi\\Desktop\\svn progmobile\\Carnet_de_santé\\Carnet_de_santé\\Carnet_de_santé.iOS\\Carnet_de_santé.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mathi\\.nuget\\packages\\nunit\\3.13.1\\nunit.3.13.1.nupkg.sha512",
+    "C:\\Users\\Mathi\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Mathi\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
